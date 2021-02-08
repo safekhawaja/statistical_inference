@@ -1,6 +1,6 @@
 # STAT431: Statistical Inference
 
-### Studies 
+## Studies 
 
 Experimental studies run by ***comparison***. There are two divisions: a test group and a control group. Ideally, the two groups are as similar as possible, as other confounding variables can be the cause of differences in results.
 We can use large numbers with randomization to improve similarity. Controls should be given placebo and researchers and subjects should have a double-blind screen as to who is in which group.
@@ -21,4 +21,20 @@ A sample of n units is called a **simple random sample without replacement (SRSW
 
 **Multistage sampling** is a combination of the above methods. For instance, the population could be stratified, then clusters could be chosen, and then systematic sampling could be performed within each cluster
 
-### Summarizing Data
+## Summarizing Data
+
+Data can be numerical or categorical. Numerical data can be discrete or continuous; categorical can be nominal or ordinal. For center and dispersion, we use means and standard deviations as statistical measures. However, these are sensitive to extreme values in data. 
+
+Mean u = 1/n . sum[Xi]
+
+Standard deviation s = root( 1/(n-1) . sum[(Xi-u)^2]
+
+The median separates the higher and lower halfs in an ordered list of values - odd uses middle, even is the mean of the middle owo of the list. The xth quantile is defined as xsub(i/n+1) = xsubi. THe median and IQR are more robust! They are great for centers and dispersion but do not describe the shape of the empirical distribution or outlier values. 
+
+Histograms are an alternative display with bins and frequency of events in said bins (intervals often approximated ot root(n)). Areas here are proportional to frequency.  
+
+![]{/histogram.png}
+
+Box plots also demonstrate the spread of the data well and do mark outliers.
+
+![]{/boxplot.png}
