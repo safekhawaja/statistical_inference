@@ -33,8 +33,8 @@ The median separates the higher and lower halfs in an ordered list of values - o
 
 Histograms are an alternative display with bins and frequency of events in said bins (intervals often approximated ot root(n)). Areas here are proportional to frequency.  
 
-![]{/histogram.png}
+![](histogram.png)
 
 Box plots also demonstrate the spread of the data well and do mark outliers.
 
-![]{/boxplot.png}
+![](boxplot.png)
