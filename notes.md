@@ -12,3 +12,13 @@ Ideally, we observe smaller groups controlled for particular factors as well to 
 Biases occurs if a sampled population does not reflect a population's interest (selection bias), subjects provide incorrect information (response bias) or particular subject do not respond (non-response bias) . 
 
 A sample of n units is called a **simple random sample without replacement (SRSWOR)**. Enumerate all sets of nCn samples. Choose units with replacement from population, selecting new units until n distinct choices are made •Choose units without replacement from population
+
+**Stratified Sampling** is when the population is divided into subgroups **(strata)**, and a simple random sample is selected from each one. This uses the law of large numbers to infer statistical foundations.
+
+**Cluster Sampling** is when the population is divided into subgroups called **clusters**. Instead of sampling at random within each cluster, a random sample of clusters is selected and all units in each cluster are included in the sample, which is more representative. 
+
+**Systematic Sampling** is when a population is ordered into a list, and the list is divided into consecutive segments of the same length. A random starting point is selected from the first segment, and the same point is sampled in each successive segment.
+
+**Multistage sampling** is a combination of the above methods. For instance, the population could be stratified, then clusters could be chosen, and then systematic sampling could be performed within each cluster
+
+### Summarizing Data
