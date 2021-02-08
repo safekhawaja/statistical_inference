@@ -38,3 +38,9 @@ Histograms are an alternative display with bins and frequency of events in said 
 Box plots also demonstrate the spread of the data well and do mark outliers.
 
 ![](boxplot.png)
+
+Normal plots are also used when quantiles approximate to a normal distribution. Here, you can compute the z scores to convert to a normal distribution and then use the normal distribution function below to find any arbitrary quantile. 
+
+![](normal1.png)
+
+![](normal2.png)
